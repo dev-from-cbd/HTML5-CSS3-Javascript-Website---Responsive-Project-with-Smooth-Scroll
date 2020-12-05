@@ -88,3 +88,8 @@
     background: linear-gradient(to right, #fcb845, #fd1d1d, #833ab4);
     transition: all 0.3s ease;
 }
+
+.navbar__links:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+}
