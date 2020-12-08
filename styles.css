@@ -112,11 +112,11 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        /* top: -1000px; */
+        top: -1000px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
-        background: #131313; 
+        /* background: #131313; */
     }
 
     .navbar__menu.active {
