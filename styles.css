@@ -62,7 +62,7 @@
     width: 125px;
     text-decoration: none;
     height: 100%;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease; /* */
 }
 
 .navbar__btn {
@@ -87,6 +87,7 @@
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb845, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb845, #fd1d1d, #833ab4);
+    color: #fff;
     transition: all 0.3s ease;
 }
 
@@ -152,13 +153,24 @@
         display: table;
     }
 
-    .navbar__btn {
+    /* .navbar__btn {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
         height: 80px;
         margin: 0;
+    } */
+
+    .navbar__btn {
+        padding-bottom: 2rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
     }
 
     #mobile-menu {
