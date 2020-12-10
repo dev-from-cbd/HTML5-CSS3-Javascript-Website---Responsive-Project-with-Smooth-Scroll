@@ -171,6 +171,8 @@
         justify-content: center;
         align-items: center;
         width: 80%;
+        height: 80px;
+        margin: 0;
     }
 
     #mobile-menu {
