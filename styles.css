@@ -199,3 +199,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+.hero {
+    background: #000000;
+}
