@@ -385,6 +385,8 @@
 }
 
 .fa-layer-group, 
+.fa-cut, 
+.fa-calendar-alt,
 .fa-users {
     font-size: 14rem;
 }
@@ -444,6 +446,8 @@
     }
 
     .fa-users,
+    .fa-cut,
+    .fa-calendar-alt,
     .fa-layer-group {
         font-size: 4rem;
     }
