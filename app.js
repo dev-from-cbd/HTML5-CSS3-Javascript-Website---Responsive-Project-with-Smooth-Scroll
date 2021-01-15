@@ -15,7 +15,7 @@ const highlightMenu = () => {
     const aboutMenu = document.querySelector('#about-page');
     const servicesMenu = document.querySelector('#services-page');
     let scrollPos = window.scrollY
-    // console.log(scrollPos);
+    // console.log(scrollPos);    
 
     if(window.innerWidth > 960 && scrollPos < 600) {
         homeMenu.classList.add('highlight');
